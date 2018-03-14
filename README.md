@@ -13,7 +13,7 @@ Instalacja odbywa się poprzez composer i dodanie do pliku composer.json poniżs
         ...
         "repositories" : [{
             "type" : "git",
-            "url" : "url" : "https://github.com/SerwerSMSpl/serwersms-laravel4.git
+            "url" : "https://github.com/SerwerSMSpl/serwersms-laravel4.git
          }],
     }
 ```
@@ -34,7 +34,7 @@ app/config/app.php:
         	'password' => 'password',
                 'api_url'  => 'https://api2.serwersms.pl/',
                 'format'   => 'json'
-        ),
+		),
     )
 ```
 Controller.php

@@ -12,7 +12,7 @@ Instalacja odbywa się poprzez composer i dodanie do pliku composer.json poniżs
         }
         ...
         "repositories" : [{
-            "type" : "git",
+            "type" : "vcs",
             "url" : "https://github.com/SerwerSMSpl/serwersms-laravel4.git"
          }],
     }
@@ -30,10 +30,10 @@ app/config/app.php:
 	        'Serwer\Sms\SmsServiceProvider',
 	    ),
 	    'sms'=>array(
-        	'username' => 'username',
-        	'password' => 'password',
-                'api_url'  => 'https://api2.serwersms.pl/',
-                'format'   => 'json'
+			'username' => 'username',
+			'password' => 'password',
+			'api_url'  => 'https://api2.serwersms.pl/',
+			'format'   => 'json'
 		),
     )
 ```
